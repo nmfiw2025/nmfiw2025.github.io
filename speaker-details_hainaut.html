@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      extensions: ["tex2jax.js"],
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
+      tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+      TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+      messageStyle: "none"
+    });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+
+    <meta charset="utf-8">
+    <title>NMFIW2025</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <!-- <link href="img/favicon.png" rel="icon"> -->
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/venobox/venobox.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <main id="main" class="main-page">
+
+        <!--==========================
+      Speaker Details Section
+    ============================-->
+        <section id="speakers-details" class="wow fadeIn">
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- <div class="col-md-6"> -->
+                    <div class="details">
+                        <h2>Donatien Hainaut</h2>
+                        <p>Université Catholique de Louvain (UCLouvain)</p>
+                        <div class="social">
+                            <a href='https://sites.google.com/view/donatienhainaut/home' target='_blank'
+                                rel='noopener noreferrer'><i class="fa fa-link" aria-hidden="true"></i></a>
+                            <a href='https://uclouvain.be/en/directories/donatien.hainaut' target='_blank'
+                                rel='noopener noreferrer'><i class="fa fa-university" aria-hidden="true"></i></a>
+                        </div>
+                        <a>Title<p>Option pricing with model constrained Gaussian process regressions</p>
+                            <!-- <br> -->
+                            Authors<p>Donatien Hainaut</p>
+                            <!-- <br> -->
+                            Abstract
+                        </a>
+                        <p>
+                            In this talk, we propose a method for pricing European options based on Gaussian processes.
+                            We convert the problem of solving the Feynman-Kac (FK) partial differential equation (PDE)
+                            into a model-constrained regression. We form two training sets by sampling state variables
+                            from the PDEs inner domain and terminal boundary. The regression function is then estimated
+                            to fit the option payoffs on the boundary sample while satisfying the FK PDE on the inner
+                            sample. We adopt a Bayesian framework in which payoffs and the value of the FK PDE in the
+                            boundary and inner samples are noised. Assuming the regression function is a Gaussian
+                            process, we find a closed-form approximation for the option prices. We demonstrate the
+                            performance of the procedure on call options in the Heston model and basket call options in
+                            a Black-Scholes market. Next, we discuss the extension of this method to American options.
+                            The variational equation driving theses options is converted into a penalized FK PDE that is
+                            solved by iterations to manage the non-linearity of the differential operator. The method is
+                            illustrated in the Heston model.
+                        </p>
+                    </div>
+                    <!-- </div> -->
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/venobox/venobox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
